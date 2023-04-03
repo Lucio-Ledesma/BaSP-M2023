@@ -4,6 +4,11 @@ body{
     font-style: normal;
     color:#373867;
 }
+a{
+    text-decoration: none;
+}
+
+
 aside{
     position: fixed;
     float: left;
@@ -12,11 +17,8 @@ aside{
     height: 100%;
 }
 aside img{
-    position:absolute;
-    top: 15px;
-    left: 80px;
+    vertical-align: middle;
 }
-
 nav{
     position: absolute;
     top:150px;
@@ -28,22 +30,26 @@ nav h2{
 .little-button{
     display: inline-block;
     height: 30px;
-    width: 120px;
+    width: 170px;
     color: #373867;
     background-color: #EBECF0;
     text-align: center;
     margin-top: 15px;
-    margin-left: 40px;
+    margin-left: 25px;
     border: 1px solid #373867;
-    border-radius: 5px;
+    border-radius: 4px;
     font-size: 15px;
     position: relative;
     line-height: 35px;
     text-decoration: none;
     font-weight: 600;
     text-transform: uppercase;
+    padding-bottom: 7px;
 }
-
+#home-button{
+    background-color: #373867;
+    color:#EBECF0;
+}
 .help-link{
     font-weight: 600;
     font-size: 15px;
@@ -54,36 +60,35 @@ nav h2{
 .help-link::first-letter{
     text-transform: uppercase;
 }
-#contact-link-1{
-    display: inline-block;
-    position: relative;
-    top:478px;
-    right:50px;
-}
-#contact-link-2{
-    display: inline-block;
-    position: relative;
-    top:600px;
-    right:15px;
-}
 
 .icon-text{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
-    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
     color: #373867;
     position: relative;
-    left: 40px;
+    margin-top: 15px;
+    margin-left: 40px;
     margin-bottom: 20px;
     bottom: 120px;
+}
+#contact-link li{ 
+    padding: 4px 0px;
+    text-align: left;
+}
+#contact-link{
+    display: inline-block;
+    position: relative;
+    top:350px;
+    margin-left:20px;
+    
 }
 .side-icon{
     position: relative;
     right:80px;
 }
-
 header{
     position: relative;
     float: right;
@@ -181,6 +186,7 @@ h3{
     color: #EBECF0;
 }
 .big-button{
+    position: relative;
     text-transform: uppercase;
     background-color: #EBECF0;
     width: 351px;
@@ -190,17 +196,17 @@ h3{
     font-size: 30px;
     line-height: 35px;
     box-shadow: 0 6px 20px -5px;
+    margin-bottom: 180px;
+    top: 275px;
 }
 #big-button-group-1{
     position: absolute;
-    top: 307px;
     left: 169px;
     text-align: center;
     
 }
 #big-button-group-2{
     position: absolute;
-    top: 307px;
     left: 677px;
     text-align: center;
     vertical-align: center;
@@ -218,6 +224,10 @@ h3{
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
+}
+.top-button{
+    padding-bottom: 50px;
+    
 }
 #form-name{
     position: absolute;
@@ -239,7 +249,6 @@ h3{
 .form-element h3::first-letter{
     text-transform: uppercase;
 }
-
 .input{
     position: relative;
     left: 301px;
@@ -278,7 +287,6 @@ h3{
     color: #FFFFFF;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
-
 #title1{
     position:absolute;
     top: 48.5px;
@@ -289,7 +297,6 @@ h3{
     top: 48.5px;
     left: 626px;
 }
-
 #list-1{
     position:absolute;
     display: inline-block;
@@ -304,7 +311,6 @@ h3{
 font-size: 30px;
 line-height: 35px;
 }
-
 #list-2{
     position:absolute;
     display: inline-block;
@@ -324,10 +330,9 @@ color: #000000;
     line-height: 23px;
     list-style:"-";
 }
-.black-list::first-letter, #list-2 h3::first-letter, #list-1 p::first-letter{
+.black-list::first-letter, #list-2 h3::first-letter, #list-1 p::first-letter, .help-link p::first-letter{
     text-transform: uppercase;
 }
-
 #list-2 ul, #list-2 h3{
     position: relative;
     left: 100px;
@@ -336,7 +341,9 @@ color: #000000;
 #list-2 ul{
 margin-top: 8px;
 }
-
+.class-group{
+padding-bottom: 75px;
+}
 footer{
     position: relative;
     float: right;

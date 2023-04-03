@@ -17,9 +17,9 @@
             </h1>
         </header>
         <aside>
-            <img src="./img/logo-rr.jpg" alt="Radium Rocket Logo">
+            <img src="./img/logo-rr.png" id="logo-rr-1" alt="Radium Rocket Logo">
             <nav>
-                <a href="#body" class="little-button">
+                <a href="#body" class="little-button" id="home-button">
                     home
                 </a>
                 <a href="#" target="" class="little-button">
@@ -37,52 +37,44 @@
                 <ul>
                     <li>
                         <a href="#help" class="help-link">
-                            how can we help you?
+                            <p>
+                                how can we help you?
+                            </p>
                         </a>
                     </li>
                     <li>
                         <a href="#history" class="help-link">
-                            our history
+                            <p>
+                                our history
+                            </p>
                         </a>
                     </li>
                     <li>
                         <a href="#activities" class="help-link">
-                            activities
+                            <p>
+                                activities
+                            </p>
                         </a>
                     </li>
                 </ul>
             </nav>
-            <ul id="contact-link-1">
-                <li>
-                    <img src=".\img\mail-icon.png" class="side-icon" alt="mail icon">
-                </li>
-                <li>
-                    <img src=".\img\ubication-icon.png" class="side-icon" alt="house icon">
-                </li>
-                <li>
-                    <img src=".\img\whatsapp-icon.png" id="diosmio"class="side-icon" alt="whatsapp icon">
-                </li>
-            </ul>
-            <ul id="contact-link-2">
+            <ul id="contact-link">
                 <li>
                     <a href="mailto:info@rocket.com" target="_blank">
-                        <p class="icon-text">
-                            info@rocket.com
-                        </p>
+                        <img src=".\img\mail-icon.png"  alt="mail icon">                     
+                        info@rocket.com        
                     </a>
                 </li>
                 <li>
                     <a href="https://www.googlemaps.com" target="_blank">
-                        <p class="icon-text">
-                            rosario, argentina
-                        </p>
+                        <img src=".\img\ubication-icon.png" alt="house icon">                       
+                        rosario, argentina
                     </a>
                 </li>
                 <li>
                     <a href="tel:000000000" target="_blank">
-                        <p class="icon-text">
-                            (000)000-000
-                        </p>
+                        <img src=".\img\whatsapp-icon.png" alt="whatsapp icon">
+                        (000)000-000
                     </a>
                 </li>
             </ul>
@@ -113,7 +105,7 @@
                  hand">
                 <ul id="big-button-group-1">
                     <li class=big-button>
-                        <p>
+                        <p class="top-button">
                             turn reservation
                         </p>
                     </li>
@@ -125,7 +117,7 @@
                 </ul>
                 <ul id="big-button-group-2">
                     <li class=big-button>
-                        <p>
+                        <p class="top-button">
                             membership management
                         </p>
                     </li>
@@ -257,55 +249,60 @@
                     memberships types
                 </h2>
                 <div id="list-2">
-                    <img src=".\img\blackm-icon.png" alt="shield icon" class="icon">
-                    <h3>
-                        black membership
-                    </h3>
-                    <ul>
-                        
-                        <li class="black-list">
-                            free access to the weight room
-                        </li>
-                        <li class="black-list">
-                            free acces to classes prior
-                        </li>
-                        <li class="black-list">
-                            registration
-                        </li>
-                        <li class="black-list">
-                            personalized monitoring by coach
-                        </li>
-                        <li class="black-list">
-                            grid display
-                        </li>
-                    </ul>
-                    <img src=".\img\classicm-icon.png" alt="thunder bolt icon" class="icon">
-                    <h3>
-                        classic membership
-                    </h3>
-                    <ul>
-                        <li class="black-list">
-                            free access to the weight room
-                        </li>
-                        <li class="black-list">
-                            personalized monitoring by coach
-                        </li>
-                        <li class="black-list">
-                            grid display
-                        </li>
-                    </ul>
-                    <img src=".\img\onlyclassesm-icon.png" alt="heart icon" class="icon">
-                    <h3>
-                        only classes membership
-                    </h3>
-                    <ul>
-                        <li class="black-list">
-                            free access to the weight room
-                        </li>
-                        <li class="black-list">
-                            grid display
-                        </li>
-                    </ul>
+                    <div class="class-group">
+                        <img src=".\img\blackm-icon.png" alt="shield icon" class="icon">
+                        <h3>
+                            black membership
+                        </h3>
+                        <ul>
+                            <li class="black-list">
+                                free access to the weight room
+                            </li>
+                            <li class="black-list">
+                                free acces to classes prior
+                            </li>
+                            <li class="black-list">
+                                registration
+                            </li>
+                            <li class="black-list">
+                                personalized monitoring by coach
+                            </li>
+                            <li class="black-list">
+                                grid display
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="class-group">
+                        <img src=".\img\classicm-icon.png" alt="thunder bolt icon" class="icon">
+                        <h3>
+                            classic membership
+                        </h3>
+                        <ul>
+                            <li class="black-list">
+                                free access to the weight room
+                            </li>
+                            <li class="black-list">
+                                personalized monitoring by coach
+                            </li>
+                            <li class="black-list">
+                                grid display
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="class-group">
+                        <img src=".\img\onlyclassesm-icon.png" alt="heart icon" class="icon">
+                        <h3>
+                            only classes membership
+                        </h3>
+                        <ul>
+                            <li class="black-list">
+                                free access to the weight room
+                            </li>
+                            <li class="black-list">
+                                grid display
+                            </li>
+                        </ul>
+                    </div>
                 </div>
              </section>
         </main>
