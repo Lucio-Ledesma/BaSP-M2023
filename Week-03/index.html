@@ -98,6 +98,8 @@
                 dumbbells with one hand">
              </section>
              <section id="section-2">
+                <div class="dividing-line">
+                </div>
                 <h2>
                     how can we help you?
                 </h2>
@@ -129,6 +131,8 @@
                 </ul>
              </section>
              <section id="contact">
+                <div class="dividing-line">
+                </div>
                 <form>
                     <name id="form-name">
                         <h2>
@@ -142,7 +146,7 @@
                                 name
                             </h3>
                         </label>
-                            <input type="text" id="name" class="input" name="name" placeholder="Insert your name" required>
+                            <input type="text" id="name" class="input-short" name="name" placeholder="Insert your name" required>
                     </div>
                     <div class="form-element">
                         <label for="surname">
@@ -150,7 +154,7 @@
                                 surname
                             </h3>
                         </label>
-                            <input type="text" id="surname" class="input" name="surname" placeholder="Insert your surname" required>
+                            <input type="text" id="surname" class="input-short" name="surname" placeholder="Insert your surname" required>
                     </div>
                     <div class="form-element">
                         <label for:e-mail>
@@ -158,7 +162,7 @@
                                 e-mail
                             </h3>
                         </label>
-                            <input type="email" id="e-mail" class="input" name="e-mail" placeholder="Insert your e-mail" required>   
+                            <input type="email" id="e-mail" class="input-short" name="e-mail" placeholder="Insert your e-mail" required>   
                     </div>
                     <div class="form-element">   
                         <label for="reason for contact">
@@ -166,18 +170,26 @@
                             reason for contact:
                         </h3>
                     </label>
-                        <input type="radio" id="reason for contact" class="option" name="reason for contact" value="query" required>
-                            <label>
-                            i want to make a query or suggestion
-                            </label>
-                        <input type="radio" id="reason for contact" class="option" name="reason for contact" value="query" required>
-                            <label>
-                            i want to make a claim
-                            </label>
-                        <input type="radio" id="reason for contact" class="option" name="reason for contact" value="query" required>
-                            <label>
-                            i want to know the memberships and costs
-                            </label>
+                        <ul id="options">
+                            <li>
+                                <input type="radio" id="reason for contact" name="reason for contact" value="query" required>
+                                    <label>
+                                    I want to make a query or suggestion
+                                    </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="reason for contact" name="reason for contact" value="query" required>
+                                    <label>
+                                    I want to make a claim
+                                    </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="reason for contact" name="reason for contact" value="query" required>
+                                    <label>
+                                    I want to know the memberships and costs
+                                    </label>
+                            </li>
+                        </ul>
                     </div>
                     <div class="form-element">
                         <label for="mesagge">
@@ -185,17 +197,25 @@
                                 message
                             </h3>
                         </label>
-                        <textarea type="text" id="message" name="message" placeholder="Type your message here" required></textarea>
+                        <textarea type="text" id="input-big" name="message" placeholder="Type your message here" required></textarea>
                     </div>
-                    <div class="form-element">
-                        <input type="submit">
-                    </div>
-                    <div class="form-element">
-                        <input type="reset">
-                    </div>
+                    <ul id="submit-reset-buttons">
+                        <li>
+                            <div class="form-element">
+                                <input type="submit" value="Send message" class="prueba" id="submit-button">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-element">
+                                <input type="reset" value="Reset" class="prueba"; id="reset-button">
+                            </div>
+                        </li>
+                    </ul>
                 </form>
              </section>
              <section id="history">
+                <div class="dividing-line">
+                </div>
                 <h2>
                     our history
                 </h2>
@@ -209,6 +229,8 @@
                 </p>
              </section>
              <section id="activities">
+                <div class="dividing-line">
+                </div>
                 <h2 id="title1">
                     activities
                 </h2>
